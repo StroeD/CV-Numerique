@@ -2,27 +2,63 @@
     text-decoration:none;
     font-family: 'Nanum Gothic Coding', monospace;
 }
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    font-family: 'Nanum Gothic Coding', monospace;
+
+}
 @media screen and (min-width:931px){
-body{
+#home{
+    height:100vh;
     background-image: url(../img/abstract-bg.jpg);
     background-size: 50%;
     background-repeat:no-repeat;
 }
 }
 @media screen and (max-width:930px){
-    body{
+    #home{
+        height:100vh;
         background-image: url(../img/abstract-bg.jpg);
         background-size: cover;
         background-repeat:no-repeat;
     }
 }
 @media screen and (max-width:463px){
-    body{
+    #home{
+        height:100vh;
         background-image: url(../img/abstract-bg.jpg);
         background-size: 500%;
         background-repeat:no-repeat;
     }
 }
+@media screen and (min-width:931px){
+    #studies > #studyBackground{
+        height:100vh;
+        background-image: url(../img/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+        background-position:100%;
+        background-size: 50%;
+        background-repeat:no-repeat;
+    }
+    }
+    @media screen and (max-width:930px){
+        #studies > #studyBackground{
+            height:100vh;
+            background-image: url(../img/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+            background-size: cover;
+            background-repeat:no-repeat;
+        }
+    }
+    @media screen and (max-width:463px){
+        #studies > #studyBackground{
+            height:100vh;
+            background-image: url(../img/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+            background-size: 500%;
+            background-repeat:no-repeat;
+        }
+    }
 .pinkBg {
     background-color: #212529!important;
     background-image: linear-gradient(90deg, #212529, #212529);
@@ -229,7 +265,7 @@ body{
         transform:scale(2);
     }
     87.5%{
-        filter:brightness(0)
+        filter:brightness(0);
         transform:translate(0, 0vh);
         transform:scale(1.5);
     }
@@ -250,3 +286,4 @@ ul{
     height:30vh;
     justify-content:space-between;
 }
+
