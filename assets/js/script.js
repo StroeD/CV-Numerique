@@ -17,6 +17,8 @@ function scrollFunction() {
   }
 }
 
+
+
 mybutton.addEventListener("click", backToTop);
 
 function backToTop() {
