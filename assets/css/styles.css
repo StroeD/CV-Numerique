@@ -475,3 +475,7 @@ ul{
     border-radius:0 !important;
     border: 2px solid #212529;
 }
+
+button > img {
+    width:30px;
+}
