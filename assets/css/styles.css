@@ -217,6 +217,30 @@
     blink-caret2 .75s step-end infinite;
     animation-delay:4.5s;
 }
+.typewriter5{
+    align-items:flex-start;
+    color:transparent;
+    /* border-right: .15em solid transparent; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    animation: 
+    typing2 1.5s steps(20, end),black, 
+    blink-caret2 .75s step-end infinite;
+    animation-delay:6s;
+}
+.typewriter6{
+    align-items:flex-start;
+    color:transparent;
+    /* border-right: .15em solid transparent; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    animation: 
+    typing2 1.5s steps(20, end),black, 
+    blink-caret2 .75s step-end infinite;
+    animation-delay:7.5s;
+}
 
   /* The typing effect */
   @keyframes typing2 {
