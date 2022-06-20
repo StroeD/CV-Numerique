@@ -535,7 +535,7 @@ ul{
             }
         }
 
-.card {
+.portfolioCard {
     border-radius:0 !important;
     border: 2px solid #212529;
     padding:0;
@@ -559,7 +559,7 @@ ul{
     }    */
 
 /* zoom on hover */
-.card:hover {
+.portfolioCard:hover {
     animation: zoom 0.5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
@@ -584,12 +584,12 @@ ul{
 button > img {
     width:30px;
 }
-.card-body{
+.cardPortfolioBody{
     display:flex;
     padding:0;
 
 }
-.card-body  > img{
+.cardPortfolioBody  > img{
     max-height:200px;
 }
 .cardTextContent{
