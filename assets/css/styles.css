@@ -1,6 +1,11 @@
 *{
-    text-decoration:none;
+
     font-family: 'Nanum Gothic Coding', monospace;
+}
+a{
+    text-decoration: none;
+    color:black;
+
 }
 #btn-back-to-top {
     position: fixed;
@@ -17,6 +22,13 @@
     background-size: 50%;
     background-repeat:no-repeat;
 }
+#hobbiesSectBg{
+    height:100vh;
+    background-image: url(../img/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+    background-size: 500%;
+    background-repeat:no-repeat;
+}
+
 }
 @media screen and (max-width:930px){
     #home{
@@ -25,11 +37,23 @@
         background-size: cover;
         background-repeat:no-repeat;
     }
+    #hobbiesSectBg{
+        height:100vh;
+        background-image: url(../img/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
+        background-size: 500%;
+        background-repeat:no-repeat;
+    }
 }
 @media screen and (max-width:463px){
     #home{
         height:100vh;
         background-image: url(../img/abstract-bg.jpg);
+        background-size: 500%;
+        background-repeat:no-repeat;
+    }
+    #hobbiesSectBg{
+        height:100vh;
+        background-image: url(../img/milad-fakurian-PGdW_bHDbpI-unsplash.jpg);
         background-size: 500%;
         background-repeat:no-repeat;
     }
@@ -42,6 +66,7 @@
         background-size: 50%;
         background-repeat:no-repeat;
     }
+
     }
     @media screen and (max-width:930px){
         #studies > #studyBackground{
@@ -50,6 +75,7 @@
             background-size: cover;
             background-repeat:no-repeat;
         }
+
     }
     @media screen and (max-width:463px){
         #studies > #studyBackground{
@@ -58,6 +84,7 @@
             background-size: 500%;
             background-repeat:no-repeat;
         }
+
     }
 .pinkBg {
     background-color: #212529!important;
@@ -170,7 +197,7 @@
     50% { border-color: rgb(0, 0, 0); }
 }
 
-.typewriter{
+.Atypewriter{
     align-items:flex-start;
     color:transparent;
     /* border-right: .15em solid transparent; */
@@ -178,10 +205,10 @@
     white-space: nowrap; /* Keeps the content on a single line */
     /* margin: 0 auto; Gives that scrolling effect as the typing happens */
     animation: 
-    typing2 1.5s steps(20),black, 
+    typingLarge 1.5s steps(20),black, 
     blink-caret2 .75s  infinite;
 }
-.typewriter2{
+.Atypewriter2{
     align-items:flex-start;
     color:transparent;
     /* border-right: .15em solid transparent; */
@@ -193,7 +220,7 @@
     blink-caret2 .75s step-end infinite;
     animation-delay:1.5s;
 }
-.typewriter3{
+.Atypewriter3{
     align-items:flex-start;
     color:transparent;
     /* border-right: .15em solid transparent; */
@@ -205,7 +232,7 @@
     blink-caret2 .75s step-end infinite;
     animation-delay:3s;
 }
-.typewriter4{
+.Atypewriter4{
     align-items:flex-start;
     color:transparent;
     /* border-right: .15em solid transparent; */
@@ -217,7 +244,7 @@
     blink-caret2 .75s step-end infinite;
     animation-delay:4.5s;
 }
-.typewriter5{
+.Atypewriter5{
     align-items:flex-start;
     color:transparent;
     /* border-right: .15em solid transparent; */
@@ -229,7 +256,7 @@
     blink-caret2 .75s step-end infinite;
     animation-delay:6s;
 }
-.typewriter6{
+.Atypewriter6{
     align-items:flex-start;
     color:transparent;
     /* border-right: .15em solid transparent; */
@@ -240,6 +267,18 @@
     typing2 1.5s steps(20, end),black, 
     blink-caret2 .75s step-end infinite;
     animation-delay:7.5s;
+}
+.Atypewriter7{
+    align-items:flex-start;
+    color:transparent;
+    /* border-right: .15em solid transparent; */
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+    animation: 
+    typing2 1.5s steps(20, end),black, 
+    blink-caret2 .75s step-end infinite;
+    animation-delay:9s;
 }
 
   /* The typing effect */
